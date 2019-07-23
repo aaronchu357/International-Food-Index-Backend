@@ -4,4 +4,5 @@ class NationalDish < ApplicationRecord
   has_many :users, through: :comments
   has_many :ingredient_national_dishes
   has_many :ingredients, through: :ingredient_national_dishes
+  has_many :recipes
 end

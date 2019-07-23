@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_17_143552) do
+ActiveRecord::Schema.define(version: 2019_07_23_183832) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,6 +53,14 @@ ActiveRecord::Schema.define(version: 2019_07_17_143552) do
     t.index ["location_id"], name: "index_national_dishes_on_location_id"
   end
 
+  create_table "recipes", force: :cascade do |t|
+    t.string "link"
+    t.bigint "national_dish_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["national_dish_id"], name: "index_recipes_on_national_dish_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
@@ -63,4 +71,5 @@ ActiveRecord::Schema.define(version: 2019_07_17_143552) do
   add_foreign_key "ingredient_national_dishes", "ingredients"
   add_foreign_key "ingredient_national_dishes", "national_dishes"
   add_foreign_key "national_dishes", "locations"
+  add_foreign_key "recipes", "national_dishes"
 end

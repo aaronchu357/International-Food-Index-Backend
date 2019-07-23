@@ -4,4 +4,5 @@ class NationalDishSerializer
   belongs_to :location
   has_many :ingredients
   has_many :users
+  has_many :recipes
 end

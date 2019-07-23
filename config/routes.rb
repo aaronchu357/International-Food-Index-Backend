@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :index, :update]
   post "/login", to: "auth#login"
   post "/signup", to: "users#create"
-  get "/profile", to: "users#profile"
-
+  get "/profile", to: "users#show"
+  
   resources :comments
 
   resources :national_dishes, only: [:index, :show]
@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   resources :locations, only: [:index, :show]
 
   resources :ingredients, only: [:index, :show]
+
+  resources :recipes
 end

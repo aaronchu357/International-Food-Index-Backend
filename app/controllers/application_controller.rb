@@ -8,7 +8,7 @@ class ApplicationController < ActionController::API
   end
 
   def secret
-    'hifiman'
+    Rails.application.credentials.my_app_secret
   end
 
   def token
