@@ -7,6 +7,7 @@ class CommentsController < ApplicationController
 
   def create
     comment = Comment.create(comment_params)
+    render json: CommentSerializer.new(comment)
   end
 
   def show
@@ -16,7 +17,7 @@ class CommentsController < ApplicationController
 
   private
   def comment_params
-    params.require(:comments).permit(:content, :rating)
+    params.permit(:content, :rating, :user_id, :national_dish_id)
   end
   
 end
