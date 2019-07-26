@@ -1,7 +1,7 @@
 class AuthController < ApplicationController
   def login
-     user = User.find_by(username: params[:username])
-     is_authenticated = user.authenticate(params[:password])
+     user = User.find_by(username: params[:userData][:username])
+     is_authenticated = user.authenticate(params[:userData][:password])
 
      if is_authenticated
        
