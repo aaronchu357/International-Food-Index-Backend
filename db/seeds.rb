@@ -1026,7 +1026,7 @@ require 'oj'
 #       "latitude": "3.919305"
 #     },
 #     {
-#       "name": "São Tomé and Príncipe",
+#       "name": "Sao Tome and Principe",
 #       "longitude": "6.613081",
 #       "latitude": "0.18636"
 #     },
