@@ -42,7 +42,7 @@ const Map = props => {
           fade
           icon="bell"
           iconClassName="blue-grey-text"
-          message="Loading Map and Markers... Wait for it"
+          message="Loading Map and Markers. Please Wait..."
           show
           text="Just Now"
           titleClassName="elegant-color-dark white-text"
