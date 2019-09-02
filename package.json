@@ -7,9 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "cd client && npm install && npm build && cd ..",
+    "build": "cd client && npm install && npm run-script build && cd ..",
     "deploy": "cp -a client/build/. public/",
-    "postinstall": "npm build && npm deploy && echo 'Client built!'"
+    "postinstall": "npm run-script build && npm deploy && echo 'Client built!'"
   },
   "repository": {
     "type": "git",
