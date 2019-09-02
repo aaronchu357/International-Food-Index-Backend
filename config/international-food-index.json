@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "international-food-index",
+  "private_key_id": "03bb394e303ea02545eda8de73ded246a584b6b9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtTR1xRkWurnog\n2InSsHx4VOhxOXmiFP3InyM4gZ6NiiGgT4RYCFnGZcVee7/Cr/NChe9SjEO23qiS\nawW5ZpMJmJu81/vdeWToWZN0mCI41nhe0wCHDJlx/dNtxihADZQECDzoDnAxhgNg\nEb6ILNCtbFaLA9DbcmB3qXDVMMAX7F26uNrRK8HhLsjqFjvfpSMQbocSMoE0J5ce\nWElhcItfopn2DpIBe+JJZHrVU5vMV7YefXwHWw44NLy/MnRWS17TPmHd4TLzix07\nGIST/SReWjElj56iQxmEdUsUCeFv0CftIwk6ex9LhQXPeIDZGzM2FrRqDyFt4Hdn\nU9rgoashAgMBAAECggEAANj2MmYeFB8dUMjOT732Nd5wbpFR43WH0jHZCb80h8ur\no22QH6AW1E4OG4quYuTaYzJle7lc4WmQWHr2gbQbNvpMlK1XuXsM/8fkXTcbP7zo\nxMnyYDazD2gm3wwPiVSnqydhKN9dNBjMLm2XyXGyqY50k+R2YoRaLWuiNiCxZ8yJ\njqy2OVMimVxLdFbS04nRYNokRtuLmZlvUg89buD3CUVTbTOfkh+fWtl2iY7ezWio\nJFUiaaRCQwC2W3eHXuPJ2k5PcQnUE5x4TRZ1ZJflyzmaEIX/kEIDwHt1SdDVZaoP\n8w2WAiGSlX1Yz4fdMWu9M8qUV3FgSR9vAp3j04yhmQKBgQDeCuBk0NfHs+6oDAkI\ndV31W77GB4mf+Kgb9uc9n/O45rOimK2yiuI30IygpRgzmvOcSGMixCkCApC9sCjo\nSq/I0ovBVFmjiiaQczSBx/mSTxPWz4I2MVMaKz0EWWroVhSoFqt7lhifURmAR0V9\ny0v24eQeKokgz/Kh1suSJ1g2HQKBgQDHzfuv4bBLQOedXaE8tgtWtKuoR+gD3NFq\nyL27Yuq37NzWMc570k1m//pJ/y69CXxsHcUV8mJzCiEc3meHt5yXIB5CzgGtacFG\ncdFBdR4E+2Os6Cx9Z0o/pofvcjyOeAR+jCehCcL6IzYqLDQIBK2W9oTAkGxCg8th\ntI5R9Top1QKBgQDMj2alWoXAtLLk3Jmh0kbqmUhLNnyDBVkS0ke9TVQC/391B4XW\nm/7G/vnfsdl3CYTvcPzr9Z31/RkNuHInd081C0u3o5clhEv8/jXcbrgtI28aknfa\np1xxGm6PSDWmsE89gA0hwWkTtWpx9Lc/qgBlBTzc0cEdmpZkpPdMwbSRvQKBgBN/\nIw8fi69cLv2pFEGzVdnpGVL7aUVvN7Qe0HzHgzXdVBNGmup0M/9X/RlZYDssAMsg\nAIpKs5acJ20Eur+AiDQq+yjzpzA/wI9aLdwgTISZ7zkBEs5N1O3vFxajZAtW5MFg\ndcF+DVuRMgjddVpO8o1nkr6jmRzIdYEcOEMBFeLdAoGAFUB5QSvwETJkYinodaQh\na66NbsNmwwf8CUsaHooiJW15LJ1l5mMZN6N3x0+IDp1s2/0HBDJKBF2ISUMTtCoQ\n5/LKV7Wr0arAYhOONvwqd7/Yne0uxFp2YWg3ENCuoUpjw1A7TmPVxMA23S4KaoEP\n+1pn14ssk4VJkYzBr9TEXCA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "international-food-index@international-food-index.iam.gserviceaccount.com",
+  "client_id": "113844346752230795273",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/international-food-index%40international-food-index.iam.gserviceaccount.com"
+}
