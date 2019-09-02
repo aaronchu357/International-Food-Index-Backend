@@ -1,0 +1,24 @@
+{
+  "name": "ifi-package",
+  "version": "0.0.1",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "cd client && npm install && npm build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm build && npm deploy && echo 'Client built!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronchu357/International-Food-Index-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronchu357/International-Food-Index-Backend/issues"
+  },
+  "homepage": "https://github.com/aaronchu357/International-Food-Index-Backend#readme"
+}
