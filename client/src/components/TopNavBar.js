@@ -28,13 +28,13 @@ const TopNavBar = props => {
 
         <MDBNavbarNav left>
           <MDBNavItem>
-            <MDBBtn size="sm" color="primary" onClick={() => props.history.push('/')} disabled={window.location.href === "/" ? true : false}>International Food Index</MDBBtn>
+            <MDBBtn size="sm" color="primary" onClick={() => props.history.push('/')} disabled={window.location.href === "https://international-food-index.herokuapp.com/" ? true : false}>International Food Index</MDBBtn>
           </MDBNavItem>
 
           <MDBTooltip
             placement="right"
           >
-            <MDBBtn size="sm" color="primary" onClick={() => props.history.push('/map')} disabled={window.location.href === "/map" ? true : false}>Browse Map</MDBBtn>
+            <MDBBtn size="sm" color="primary" onClick={() => props.history.push('/map')} disabled={window.location.href === "https://international-food-index.herokuapp.com/map" ? true : false}>Browse Map</MDBBtn>
             <div>Explore</div>
           </MDBTooltip>
         </MDBNavbarNav>
@@ -43,7 +43,7 @@ const TopNavBar = props => {
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
 
           {
-            window.location.href !== "/map" ?
+            window.location.href !== "https://international-food-index.herokuapp.com/map" ?
               <MDBNavbarNav right>
                 {/* <MDBNavItem>
                   <MDBNavLink className="waves-effect waves-light" to="/about" >
