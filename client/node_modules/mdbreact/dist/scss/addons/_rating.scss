@@ -1,11 +1,11 @@
 .mdb-rating {
 
   .rate-popover {
-    color: #808080;
+    color: grey;
   }
 
   .live {
-    color: #000;
+    color: black;
   }
 
   .oneStar {
@@ -17,6 +17,7 @@
   }
 
   .threeStars {
+
     color: #e2b52e;
   }
 
@@ -29,7 +30,6 @@
   }
 
   .amber-text {
-    color: #ffc107;
+    color: #ffc107 !important;
   }
-
 }
