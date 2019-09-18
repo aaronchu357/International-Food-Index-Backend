@@ -16,4 +16,4 @@ MDBootstrap
  - map layout toggle
  - recipe search on [Bing](https://www.bing.com/)
  - commenting
- <img src="https://gph.is/g/apVg3p6" alt="comment"/> 
+ <img src="https://media.giphy.com/media/jU2kkw7nRfQzALptfs/giphy.gif" alt="comment"/> 
