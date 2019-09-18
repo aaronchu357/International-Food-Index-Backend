@@ -7,9 +7,9 @@
 International Food Index allows the user to browse or search for national dishes of different countries in an interactive map.
 
 ## Technologies/Libraries Used
-Ruby on Rails backend with PostgreSQL database and React frontend.
-Google Map Platform’s Maps Javascript API
-MDBootstrap
+- Ruby on Rails backend with PostgreSQL database and React frontend
+- Google Map Platform’s Maps Javascript API
+- MDBootstrap
 
 ## Features
  ## Searching
