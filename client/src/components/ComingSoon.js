@@ -2,7 +2,7 @@ import React from 'react'
 import TopNavBar from './TopNavBar'
 import CountdownTimer from './CountdownTimer'
 
-const deadlineDate = new Date('September 31, 2019 23:59:59').getTime()
+const deadlineDate = new Date('November 31, 2019 23:59:59').getTime()
 
 const ComingSoon = props => {
   return (
