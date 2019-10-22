@@ -35,7 +35,7 @@ export default class FirstContainer extends Component {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
-      body: JSON.stringify({ userData })
+      body: JSON.stringify(userData)
     })
       .then(resp => resp.json())
       .then(parsedResponse => {

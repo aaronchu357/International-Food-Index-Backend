@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { connect } from 'react-redux'
 import './CountdownTimer.css'
 
 const CountdownTimer = props => {
@@ -16,7 +15,6 @@ const CountdownTimer = props => {
     setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)))
     setSeconds(Math.floor((distance % (1000 * 60)) / 1000))
   }, 1000)
-
 
   return (
     <div className="wrapper">
@@ -50,10 +48,4 @@ const CountdownTimer = props => {
   )
 }
 
-const mapStateToProps = state => ({
-  days: state.days,
-  hours: state.hours,
-  minutes: state.minutes,
-  seconds: state.seconds
-})
-export default connect(mapStateToProps)(CountdownTimer)
+export default CountdownTimer
