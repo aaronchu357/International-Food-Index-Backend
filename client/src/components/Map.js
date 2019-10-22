@@ -31,7 +31,7 @@ const Map = props => {
       <TopNavBar {...props} buttonName={"Login"} navPath={"/login"} handleSearchFormOnSubmit={handleSearchFormOnSubmit} handleToggleSwitchClick={handleToggleSwitchClick} toggleSwitchOn={toggleSwitchOn} />
       <LoadScript
         id="script-loader"
-        googleMapsApiKey="AIzaSyCDqYru3D32INEjCkIOPB48OqjEWksoAXI"
+        googleMapsApiKey={process.env.GOOGLE_MAPS_API_KEY}
       >
 
         <MDBNotification
